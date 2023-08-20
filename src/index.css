@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@layer components {
+    .anim {
+        @apply transition-all duration-[400ms] ease-in-out;
+    }
+    .anim-slo {
+        @apply transition-all duration-[800ms] ease-in-out;
+    }
+    .anim-fst {
+        @apply transition-all duration-[200ms] ease-linear;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: "Plus Jakarta Sans" !important;
+    height: 100vh;
+    font-weight: 600;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+.starry {
+    background: linear-gradient(180deg, #1e252f 0%, #270639 100%),
+        linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.zengarden {
+    background: linear-gradient(180deg, #47827a 0%, #063936 100%),
+        linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.beach {
+    background: linear-gradient(180deg, #b3815a 0%, #765026 100%),
+        linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.forest {
+    background: linear-gradient(180deg, #478250 0%, #063936 100%),
+        linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.tibet {
+    background: linear-gradient(180deg, #824752 0%, #390622 100%),
+        linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.shad {
+    box-shadow: 0px 71.7391357421875px 119.56521606445312px 0px
+        rgba(0, 0, 0, 0.1);
+}
+.grad {
+    background: linear-gradient(180deg, #e1f8ff 0%, #539cff 100%), #fff;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.shad-blu {
+    filter: drop-shadow(
+        0px 4.510638236999512px 22.553192138671875px rgba(83, 156, 255, 0.53)
+    );
+}
+.grad-warm {
+    background: linear-gradient(180deg, #ffdfe0 0%, #e7b9ff 100%);
+}
+
+/*---------------HP Classics---------------*/
+
+/*centering absolute stuff*/
+
+.centerh {
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.centerv {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.centerrr {
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Selection controls*/
+
+::-moz-selection {
+    color: rgb(255, 255, 255);
+    background: rgb(22, 9, 9);
+}
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgba(22, 9, 9);
+}
+
+.noselect {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none;
+}
+
+/*media hacks*/
+
+.pc {
+    visibility: visible;
+    display: flex;
+}
+
+.mob {
+    visibility: hidden;
+    display: none;
+}
+
+.hide {
+    display: none;
+    visibility: hidden;
+}
+
+/*z-index hacks*/
+
+.toppp {
+    z-index: 9999;
+}
+
+.topppp {
+    z-index: 99999;
+}
+.toppppp {
+    z-index: 9999999;
+}
+
+.bottt {
+    z-index: -9999;
+}
+
+/*others*/
+
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .mob {
+        visibility: visible;
+        display: flex;
+    }
+    .pc {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+/*---------------HP Classics---------------*/

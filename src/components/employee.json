@@ -1,0 +1,70 @@
+{
+    "employees": [
+        {
+            "name": "Shibin",
+            "employee_id": "12345",
+            "months": {
+                "January": {
+                    "absence_rate": 42,
+                    "project_completion_rate": 78,
+                    "overtime_frequency": 75
+                },
+                "February": {
+                    "absence_rate": 18,
+                    "project_completion_rate": 91,
+                    "overtime_frequency": 65
+                },
+                "March": {
+                    "absence_rate": 60,
+                    "project_completion_rate": 65,
+                    "overtime_frequency": 70
+                },
+                "April": {
+                    "absence_rate": 80,
+                    "project_completion_rate": 35,
+                    "overtime_frequency": 65
+                },
+                "May": {
+                    "absence_rate": 75,
+                    "project_completion_rate": 80,
+                    "overtime_frequency": 60
+                },
+                "June": {
+                    "absence_rate": 55,
+                    "project_completion_rate": 73,
+                    "overtime_frequency": 65
+                },
+                "July": {
+                    "absence_rate": 10,
+                    "project_completion_rate": 68,
+                    "overtime_frequency": 12
+                },
+                "August": {
+                    "absence_rate": 20,
+                    "project_completion_rate": 82,
+                    "overtime_frequency": 18
+                },
+                "September": {
+                    "absence_rate": 12,
+                    "project_completion_rate": 70,
+                    "overtime_frequency": 9
+                },
+                "October": {
+                    "absence_rate": 35,
+                    "project_completion_rate": 60,
+                    "overtime_frequency": 30
+                },
+                "November": {
+                    "absence_rate": 5,
+                    "project_completion_rate": 95,
+                    "overtime_frequency": 3
+                },
+                "December": {
+                    "absence_rate": 20,
+                    "project_completion_rate": 75,
+                    "overtime_frequency": 22
+                }
+            }
+        }
+    ]
+}
